@@ -1,0 +1,13 @@
+{
+  "name": "yj2drwallet",
+  "version": "0.0.1",
+  "manifest_version": 2,
+  "description": "yj2drwallet",
+  "content_scripts": [
+    {
+      "matches": ["https://member1.card.yahoo.co.jp/usage/detail*"],
+      "js": ["jquery-2.1.4.min.js", "myScript.js"],
+      "run_at": "document_idle"
+    }
+  ]
+}
